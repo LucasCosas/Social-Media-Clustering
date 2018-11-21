@@ -2,7 +2,7 @@ install.packages("assertive")
 library(assertive)
 
 #Importando o Dataset
-rawdata <- read.csv("./data/snsdata.csv")
+rawdata <- read.csv("../data/snsdata.csv")
 
 names(rawdata)
 rawdata$abercrombie
